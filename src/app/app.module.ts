@@ -9,7 +9,8 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ServerComponent
   ],
   //added FormsModule and HttpModule to be in sync with tutorial
   imports: [
