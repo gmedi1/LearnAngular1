@@ -5,12 +5,14 @@ import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 
 import { AppComponent } from './app.component';
-
+import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponent
+    ServerComponent,
+    ServersComponent
   ],
   //added FormsModule and HttpModule to be in sync with tutorial
   imports: [
